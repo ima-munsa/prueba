@@ -1,11 +1,35 @@
+/*---FONTS---*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+
+
 body{
-    background-color: rgba(209, 199, 171, 0.838);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(184, 110, 32);
 }
 
-.top{
-    padding:20px;
+header{
+    background: #1d1d1de6;
+    padding:30px;
     text-align: center;
-    text-shadow: 2em;
-    background-color: rgba(44, 78, 3, 0.637);
-
+    color: #493968;
+    font-family: 'Bungee Spice', sans-serif;
 }
+
+main {
+    display:flex;
+    
+}
+
+.lcolumn{
+    flex:35%;
+    background: #710e0ee6;
+    padding:30px;
+}
+
+.rcolumn{
+    flex:65%;
+    background: #0b0202e6;
+    padding:30px;
+}
+
+
