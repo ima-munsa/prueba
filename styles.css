@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(209, 199, 171, 0.838);
+}
+
+.top{
+    padding:20px;
+    text-align: center;
+    text-shadow: 2em;
+    background-color: rgba(44, 78, 3, 0.637);
+
+}
